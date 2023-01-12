@@ -67,3 +67,7 @@ inoremap ( ()<left>
 inoremap ) ();<left><left>
 inoremap [ []<left>
 inoremap { {}<left>
+
+"et permet moure millor per vim"
+vnoremap <S-Down>	:m '>+1<CR>gv=gv
+vnoremap <S-Up> 	:m '<-2<CR>gv=gv
